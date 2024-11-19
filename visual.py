@@ -1,8 +1,11 @@
+# """
+# This module is responsible for visualising the data using Matplotlib.
+# Any visualisations should be generated via functions in this module.
+# """
+
 header = "Disneyland Review Analyser"
 
-def title():
+def head():
     print(f"{"-"*len(header)}")
-    print(f"{header}")
-    print(f"{"-" * len(header)}")
-
-title()
+    print(header)
+    print(f"{"-"*len(header)}")
